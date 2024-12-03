@@ -13,15 +13,39 @@ This repository provides a simple test to demonstrate the sorting of **UUIDs**, 
   - Descending order.
 - Display results with timestamps or indicate if the UUID is not v7.
 
--------------------------ORIGINAL
-018d1e7e-5a6e-7a93-8000-4f3556a7d65c - 2024-12-01T12:34:56.000Z
-c66e5e97-0e0d-4f9e-80ec-10b29f52e5a2 - not UUIDv7, no date
--------------------------ASC
-018d1e7e-5a6e-7a93-8000-4f3556a7d65c - 2024-12-01T12:34:56.000Z
-c66e5e97-0e0d-4f9e-80ec-10b29f52e5a2 - not UUIDv7, no date
--------------------------DESC
-c66e5e97-0e0d-4f9e-80ec-10b29f52e5a2 - not UUIDv7, no date
-018d1e7e-5a6e-7a93-8000-4f3556a7d65c - 2024-12-01T12:34:56.000Z
+-------------------------ORIGINAL  
+01938237-8180-75a2-a3fc-93b5b697e2d8 - 01.12.2024 12:34:56  
+0193875d-dd80-78ea-a62f-1b9316fc9db9 - 02.12.2024 12:34:56  
+01938c84-3980-7d62-bfb0-9b912bbf671d - 03.12.2024 12:34:56  
+019391aa-9580-7311-ba64-e0644c0d4166 - 04.12.2024 12:34:56  
+f8af059b-d8dd-4a6b-b03f-bcdc1af65689 - not UUIDv7, no date  
+01932aab-6580-7c7d-84aa-fb5ee7ee85c7 - 14.11.2024 12:34:56  
+c4e8e777-46bc-49cd-9ad0-f91801ff87f0 - not UUIDv7, no date  
+0192f72b-cd80-7752-a18f-fc529af940b4 - 04.11.2024 12:34:56  
+01935904-a180-7825-adf5-61d6634fd2b0 - 23.11.2024 12:34:56  
+
+-------------------------ASC  
+0192f72b-cd80-7752-a18f-fc529af940b4 - 04.11.2024 12:34:56  
+01932aab-6580-7c7d-84aa-fb5ee7ee85c7 - 14.11.2024 12:34:56  
+01935904-a180-7825-adf5-61d6634fd2b0 - 23.11.2024 12:34:56  
+01938237-8180-75a2-a3fc-93b5b697e2d8 - 01.12.2024 12:34:56  
+0193875d-dd80-78ea-a62f-1b9316fc9db9 - 02.12.2024 12:34:56  
+01938c84-3980-7d62-bfb0-9b912bbf671d - 03.12.2024 12:34:56  
+019391aa-9580-7311-ba64-e0644c0d4166 - 04.12.2024 12:34:56  
+c4e8e777-46bc-49cd-9ad0-f91801ff87f0 - not UUIDv7, no date  
+f8af059b-d8dd-4a6b-b03f-bcdc1af65689 - not UUIDv7, no date  
+
+-------------------------DESC  
+f8af059b-d8dd-4a6b-b03f-bcdc1af65689 - not UUIDv7, no date  
+c4e8e777-46bc-49cd-9ad0-f91801ff87f0 - not UUIDv7, no date  
+019391aa-9580-7311-ba64-e0644c0d4166 - 04.12.2024 12:34:56  
+01938c84-3980-7d62-bfb0-9b912bbf671d - 03.12.2024 12:34:56  
+0193875d-dd80-78ea-a62f-1b9316fc9db9 - 02.12.2024 12:34:56  
+01938237-8180-75a2-a3fc-93b5b697e2d8 - 01.12.2024 12:34:56  
+01935904-a180-7825-adf5-61d6634fd2b0 - 23.11.2024 12:34:56  
+01932aab-6580-7c7d-84aa-fb5ee7ee85c7 - 14.11.2024 12:34:56  
+0192f72b-cd80-7752-a18f-fc529af940b4 - 04.11.2024 12:34:56  
+
 
 
 Dependencies
